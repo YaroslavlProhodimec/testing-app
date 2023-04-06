@@ -1,0 +1,49 @@
+.containerMain{
+    background-color: #b2fbfd;
+
+}
+
+.containerWrap{
+    display: flex;
+    flex-direction: column;
+    border:1px solid darkblue;
+    min-height:100vh ;
+
+}
+.contact{
+
+}
+.wrapInput{
+display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.button{
+    width: 145px;
+    margin-top: 15px;
+    margin-bottom: 30px ;
+}
+.sizeForm{
+
+    width: 45%;
+}
+@media (max-width: 746px) {
+    .containerWrap{
+        min-height:50vh
+    }
+    .content {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .sizeForm {
+        width:95%;
+    }
+}
+@media (max-width: 746px) {
+
+}

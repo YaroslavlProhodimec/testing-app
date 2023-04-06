@@ -1,0 +1,22 @@
+.wrapFooter{
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+}
+.bloksMain{
+    display: flex;
+
+}
+.blocks{
+    border: 1px solid black;
+    height: 50px;
+    width: 35%;
+}
+.allRight{
+    font-size: 30px;
+}
+@media (max-width: 430px) {
+    .blocks {
+        width:70%
+    }}

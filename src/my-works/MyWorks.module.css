@@ -1,0 +1,26 @@
+.worksMainContainer{
+    background-color: yellow;
+    min-height: 100vh;
+}
+.MyWorksContainer{
+
+    align-items:center ;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+@media (max-width: 853px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}

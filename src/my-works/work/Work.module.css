@@ -1,0 +1,42 @@
+.containerWork{
+
+}
+
+.containerImage {
+    height: 340px;
+    width: 340px;
+    position: relative;
+
+    background-image: url("./photo.jpg");
+    background-size: auto auto;
+}
+
+@media (max-width: 448px) {
+    .containerImage {
+        height: 240px;
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
+.btn {
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #a25858;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.description{
+    border: 10px solid white;
+}

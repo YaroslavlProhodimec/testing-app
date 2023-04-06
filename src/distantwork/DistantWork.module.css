@@ -1,0 +1,28 @@
+.offerJobContainer {
+
+    min-height: 20vh;
+    margin: 50px 0px;
+}
+.offerJob {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+    background-color: #a25858;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+@media (max-width: 746px) {
+    .offerJobContainer{
+        min-height:10vh
+    }}
